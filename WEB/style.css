@@ -1,0 +1,132 @@
+.back{
+	background-color: #32325d;
+	margin: auto;
+	width: 50%;
+	margin-top: 5%;
+
+	border-radius: 25px;
+	
+	min-height: 200px;
+}
+/*Page Set*/
+.playtitle{font-size: 40px;color: white;}
+.titleset{
+
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+.settable{	
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+
+}
+.settable select{width: 150px;}
+.settable td{padding-bottom: 10px;}
+
+/* Page How*/
+.titleh{
+text-align: left;
+font-weight: bold;
+font-size: 30px;
+color: white;
+
+}
+.infop{
+	color: white;
+	text-align: justify;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*Page About*/
+.ap{
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.atd{
+
+	width: 50%;text-align: justify;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.atd img{  display: block;
+    margin: 0 auto;}
+.atitle{
+
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+}
+
+
+/*Contact Page*/
+.dcontact{color: white;font-size: 25px;text-align: center;padding-left: 5px;padding-right: 5px;}
+.tcontact{
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.tcontact a{text-decoration: none;}
+.tcontact td{padding-left: 5px;text-align: left;}
+.btnwa{
+	vertical-align: bottom;
+	text-align: center;
+	margin :auto;
+	width: 90px;
+	height: 35px;
+	color: white;
+	background-color: #2dce89;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	border-color: #e14eca;
+
+}
+.btn{
+	text-align: center;
+	margin :auto;
+	width: 80%;
+	height: 45px;
+	color: white;
+	background-color: #2dce89;
+	font-size: 20px;
+	font-weight: bold;
+	 
+	border-radius: 10px;
+	margin-bottom: 15px;
+	border-color: #e14eca;
+}
+.btn:hover{background-color: #e14eca;}
+.btncenter{text-align: center;padding-bottom: 20px;}
+body{background-color: #5e72e4;}
+h1{text-align: center;
+	color: #ffffff; 
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 5px;
+}
+h2{
+	font-size: 40px;
+	color: white;
+
+
+}
+hr{ border: 3px solid #2dce89;
+  border-radius: 5px;}
+@media screen and (max-width: 480px) {
+  .back {
+    width: 97%;
+  }
+  .btn {width: 90%;}
+ .atd{
+ 	width: 90%;
+ 	display: block;
+ }
+ .settable td{
+
+	display: block;
+}
+}

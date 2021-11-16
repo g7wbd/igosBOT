@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">  
+
+function myFunction(){
+
+var a=document.getElementById("songx").value;
+alert(a);
+}
+</script>
+	<title>IGos Bot</title>
+</head>
+<body>
+<div class="back">
+	<h1>~ IGos BOT ~</h1>
+	<hr>
+	<br>
+	<div class="btncenter">
+		<img src="media/hs.png" width="50px">
+		<span class="playtitle">Play Your Imagination</span>
+		<form action="done.php" method="post">
+		<table class="settable">
+		 	<tr> 
+		 	<td class="titleset">Set Your Timer</td>
+		    <td>
+		    	<select name="timer">
+		    		<option value="30">30 Minute</option>
+		    		<option value="60">60 Minute</option>
+		    		<option value="90">90 Minute</option>
+		  		</select>
+		    </td> 
+		  	</tr> 	
+		  	<tr>
+			<td class="titleset">Chose Your Song</td>
+		    <td>
+		    	<select name="song" id="songx">
+		    		<option value="1">Song 1</option>
+		    		<option value="2">Song 2</option>
+		    		<option value="3">Song 3</option>
+		    		<option value="4">Song 4</option>
+		    		<option value="5">Song 5</option>
+		  		</select>
+		        <input type="button" value="Preview" onclick=myFunction()>
+		    </td>
+
+		  	</tr>
+		 	<tr>
+		 		<td class="titleset">Speed Vibration</td>
+		 		<td>	
+		 		<input type="number" id="speed" name="speed" min="0" max="100" value=2>
+		 		</td>
+		 	</tr>
+		</table>
+		<br>		
+		<input type="submit" value="Submit" class="btn">
+	</form>
+	</div>
+	
+</div>
+</body>
+</html>
